@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta CHARSET="UTF-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link 
+</head>
+
+<body>
+	<header>
+		<h1>The code review</h1>
+	</header>
+
+		<div class="wrapper">
+			<div class="title">
+				<h1>Signup for our newsletter</h1>
+				<p>Get the latest news on how your code is doing right in your inbox</p>
+			</div>
+
+			<form>
+
+				<fieldset class="first clearfix">
+
+					<legend>Contact Information</legend>
+
+					<label for"name">Full Name</label>
+					<input class="fade" type="name" id="name" name="user_name" placeholder="Required  " required><br>
+
+					<label for"email">Email Address</label>
+					<input class="fade" type="email" id="email" name="user_email" placeholder="Required  " required><br>
+
+					<label for"phone">Phone Number</label>
+					<input class="fade" type="phone" id="phone" name="user_phone" placeholder="+44(0) "><br>
+
+					<label for"street">Street Address</label>
+					<input class="fade" type="street" id="street" name="street" required><br>
+
+					<label for"city">City</label>
+					<input class="fade" type="city" id="city" name="user_city" required><br>
+
+					<label for"street">State</label>
+					<select type="state" id="state" name="user_state" required>
+						<option value="Alabama">Alabama</option>
+						<option value="Alaska">Alaska</option>
+						<option value="Arizona">Arizona</option>
+						<option value="Arkansas">Arkansas</option>
+						<option value="California">California</option>
+					</select><br>
+
+					<label for"zip">Zip Code</label>
+					<input class="fade" type="zip" id="zip" name="zip" required><br>
+
+				</fieldset>
+
+				<fieldset id="second">
+					<legend>Newsletter</legend>
+					<p>Select the newsletters you would like to receive</p>
+
+					<input type="checkbox" id="html" value="newsletter_html" name="newsletter_interest"><label for="html">HTML News</label><br>
+					<input type="checkbox" id="css" value="newsletter_css" name="newsletter_interest"><label for="css">CSS News</label><br>
+					<input type="checkbox" id="javascript" value="newsletter_javascript" name="newsletter_interest"><label for="javascript">Javascript News</label><br>
+
+					<p>Newsletter format</p>
+					<input type="radio" id="html" value="format_html" name="format_html"><label for="format_html">HTML</label><br>
+					<input type="radio" id="html" value="format_html" name="format_html"><label for="format_html">Plain text</label><br>
+
+					<p>Other topics you'd like to hear about</p>
+					<textarea id="topics" name="user_interests"></textarea>
+
+					<button>Sign Up</button>
+
+				</fieldset>
+			</form>
+		</div>
+
+	<footer>
+		<p><em>Copyright The Code Review</em></p>
+	</footer>
+</body>
+
+</html>
+
+<!-- END -->

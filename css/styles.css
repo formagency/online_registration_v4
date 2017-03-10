@@ -1,0 +1,261 @@
+
+.wrapper {
+  max-width: 769px;
+  margin: 0 auto;
+}
+
+input:target {
+  background: red;
+  color: green;
+}
+
+header h1 {
+  background-color: #52bab3;
+  width: 102%;
+  color: white;
+  height: 4rem;
+  margin: -10px;
+  padding-top: 20px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.title {
+  border-bottom: 6px double black;
+  margin-bottom: 20px;
+}
+
+.title p {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  text-align: right;
+  font-style: italic;
+  font-size: .8em;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  text-align: right;
+  font-style: italic;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  text-align: right;
+  font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+  text-align: right;
+  font-style: italic;
+}
+
+legend {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+  color: black;
+}
+
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  margin: 0 0 30px 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+p,
+form {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  color: #888;
+}
+
+.first label {
+  clear: both;
+  float: left;
+  padding-top: 10px;
+}
+
+
+
+input[type="name"],
+input[type="email"],
+input[type="phone"],
+input[type="street"],
+input[type="city"],
+input[type="state"],
+input[type="zip"],
+select {
+  float: right;
+  width: 80%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  margin-bottom: 30px;
+}
+
+/* --
+
+
+input[type="name"],
+input[type="email"],
+input[type="phone"],
+input[type="street"],
+input[type="city"],
+input[type="street"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 14px 0px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+input[type="zip"] {
+  width: 40%;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 14px 0px;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+-- */
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 15px 15px 0;
+}
+
+textarea {
+  margin-bottom: 20px;
+ 
+}
+
+input:focus {
+  border: none;
+  border: 2px solid #ccc;
+}
+
+input[type="radio"]:checked+label,
+input[type="checkbox"]:checked+label {
+  font-weight: bold;
+}
+
+button {
+	width: 100%;
+	color: white;
+	background: #52bab3;
+	border: none;
+	border-radius: 5px;
+	padding: 20px 0;
+	font-size: 1em;
+}
+
+button:hover {
+  opacity: .75;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+  margin: -2px; /* USER AGENT STYLES INTERFERING HERE */
+}
+
+fieldset:nth-of-type(2n+1) {
+    border-bottom: 2px solid;
+    margin-bottom: 40px;
+}
+
+fieldset:last-of-type {
+  clear: both;
+}
+
+
+legend {
+	font-size:;
+	font-weight:;
+}
+
+footer {
+  padding-bottom: 10px;
+
+}
+
+footer p {
+	text-align: center;
+	text-decoration: italic;
+}
+
+
+.fade {
+   background: #ccc;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 1;
+      border: 2px solid #ccc;
+      }
+
+/* MEDIA QUERIES --------- */
+
+@media screen and (min-width: 769px) {
+
+  form {
+    max-width: 769px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+input[type="name"],
+input[type="email"],
+input[type="phone"],
+input[type="street"],
+input[type="city"],
+input[type="state"],
+input[type="zip"],
+select {
+  float: right;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+}
